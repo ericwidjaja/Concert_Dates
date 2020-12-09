@@ -13,6 +13,11 @@
 		DF523AB52322A00E007B6DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF523AB42322A00E007B6DEC /* Assets.xcassets */; };
 		DF523AB82322A00E007B6DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF523AB62322A00E007B6DEC /* LaunchScreen.storyboard */; };
 		DF523AC32322A00E007B6DEC /* ConcertDatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF523AC22322A00E007B6DEC /* ConcertDatesTests.swift */; };
+		DF523ACE2322A02D007B6DEC /* Concert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF523ACD2322A02D007B6DEC /* Concert.swift */; };
+		DF523AD02322A0EA007B6DEC /* concert.json in Resources */ = {isa = PBXBuildFile; fileRef = DF523ACF2322A0EA007B6DEC /* concert.json */; };
+		DF523AD22322A1A4007B6DEC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF523AD12322A1A4007B6DEC /* NetworkManager.swift */; };
+		DF523AD42322A1CB007B6DEC /* ConcertAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF523AD32322A1CB007B6DEC /* ConcertAPIHelper.swift */; };
+		DF523AD62322A8AA007B6DEC /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF523AD52322A8AA007B6DEC /* AppError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		DF523ABE2322A00E007B6DEC /* ConcertDatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcertDatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF523AC22322A00E007B6DEC /* ConcertDatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertDatesTests.swift; sourceTree = "<group>"; };
 		DF523AC42322A00E007B6DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF523ACD2322A02D007B6DEC /* Concert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concert.swift; sourceTree = "<group>"; };
+		DF523ACF2322A0EA007B6DEC /* concert.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = concert.json; sourceTree = "<group>"; };
+		DF523AD12322A1A4007B6DEC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DF523AD32322A1CB007B6DEC /* ConcertAPIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertAPIHelper.swift; sourceTree = "<group>"; };
+		DF523AD52322A8AA007B6DEC /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				DF523AAD2322A00D007B6DEC /* AppDelegate.swift */,
+				DF523ACD2322A02D007B6DEC /* Concert.swift */,
+				DF523AD12322A1A4007B6DEC /* NetworkManager.swift */,
+				DF523AD32322A1CB007B6DEC /* ConcertAPIHelper.swift */,
+				DF523ACF2322A0EA007B6DEC /* concert.json */,
 				DF523AAF2322A00D007B6DEC /* ViewController.swift */,
+				DF523AD52322A8AA007B6DEC /* AppError.swift */,
 				DF523AB12322A00D007B6DEC /* Main.storyboard */,
 				DF523AB42322A00E007B6DEC /* Assets.xcassets */,
 				DF523AB62322A00E007B6DEC /* LaunchScreen.storyboard */,
@@ -179,6 +194,7 @@
 			files = (
 				DF523AB82322A00E007B6DEC /* LaunchScreen.storyboard in Resources */,
 				DF523AB52322A00E007B6DEC /* Assets.xcassets in Resources */,
+				DF523AD02322A0EA007B6DEC /* concert.json in Resources */,
 				DF523AB32322A00D007B6DEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +213,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF523AD22322A1A4007B6DEC /* NetworkManager.swift in Sources */,
+				DF523AD42322A1CB007B6DEC /* ConcertAPIHelper.swift in Sources */,
+				DF523AD62322A8AA007B6DEC /* AppError.swift in Sources */,
 				DF523AB02322A00D007B6DEC /* ViewController.swift in Sources */,
+				DF523ACE2322A02D007B6DEC /* Concert.swift in Sources */,
 				DF523AAE2322A00D007B6DEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
